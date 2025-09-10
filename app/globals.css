@@ -5,7 +5,7 @@
 
 @theme {
   --font-poppins: "Poppins", sans-serif;
-  --color-shop_light_pink: #fcf0e4;
+  /* --color-shop_light_pink: #fcf0e4;
   --color-shop_dark_green: #063c28;
   --color-shop_btn_dark_green: #063d29;
   --color-shop_light_bg: #f6f6f6;
@@ -15,7 +15,30 @@
   --color-lightColor: #52525b;
   --color-lightOrange: #fca99b;
   --color-shop_light_green: #3b9c3c;
-  --color-deal-bg: #f1f3f8;
+  --color-deal-bg: #f1f3f8; */
+  --color-gray-50:  #f6f6f6;
+  --color-gray-100: #e7e7e7;
+  --color-gray-200: #d1d1d1;
+  --color-gray-300: #b0b0b0;
+  --color-gray-400: #888888;
+  --color-gray-500: #6d6d6d;
+  --color-gray-600: #5d5d5d;
+  --color-gray-700: #4f4f4f;
+  --color-gray-800: #454545;
+  --color-gray-900: #3d3d3d;
+  --color-gray-950: #000000;
+
+  --color-white-50:  #ffffff;
+  --color-white-100: #efefef;
+  --color-white-200: #dcdcdc;
+  --color-white-300: #bdbdbd;
+  --color-white-400: #989898;
+  --color-white-500: #7c7c7c;
+  --color-white-600: #656565;
+  --color-white-700: #525252;
+  --color-white-800: #464646;
+  --color-white-900: #3d3d3d;
+  --color-white-950: #292929;
 }
 
 :root {
@@ -134,6 +157,12 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+  .hoverEffect{
+    @apply transition-all duration-300 ease-in-out;
+  }
+  button{
+    @apply hover:cursor-pointer
   }
 }
 
