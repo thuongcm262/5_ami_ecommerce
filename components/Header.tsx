@@ -7,8 +7,12 @@ import CartIcon from "./CartIcon";
 import FavoriteButton from "./FavoriteButton";
 import SignIn from "./SignIn";
 import HeaderMobileMenu from "./HeaderMobileMenu";
+import { currentUser } from "@clerk/nextjs/server";
+import { ClerkLoaded, SignedIn, UserButton } from "@clerk/nextjs";
 
-const Header = () => {
+const Header = async () => {
+  const user = await currentUser();
+  console.log(user);
   return (
     <header className="bg-white sticky top-0 z-50 py-5 backdrop-blur-md">
       <Container
@@ -33,7 +37,12 @@ const Header = () => {
           <SearchBar></SearchBar>
           <CartIcon></CartIcon>
           <FavoriteButton></FavoriteButton>
-          <SignIn></SignIn>
+          <ClerkLoaded>
+            <SignedIn>
+              <UserButton></UserButton>
+            </SignedIn>
+            {!user && <SignIn></SignIn>}
+          </ClerkLoaded>
         </div>
       </Container>
     </header>

@@ -166,3 +166,11 @@
   }
 }
 
+body {
+  font-family: var(--font-poppins);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
