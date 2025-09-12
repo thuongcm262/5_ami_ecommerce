@@ -22,13 +22,13 @@ const Footer = () => {
               của bạn.
             </SubText>
             <SocialMedia
-              className="text-darkColor/60"
-              iconClassName="border-darkColor/60 hover:border-gray-400 hover:text-gray-700"
+              className="text-gray-950/60"
+              iconClassName="border-gray-950/60 hover:border-gray-400 hover:text-gray-700"
               tooltipClassName="bg-gray-950 text-white"
             />
           </div>
           <div>
-            <SubTitle>Các đường dẫn</SubTitle>
+            <SubTitle>Thông tin</SubTitle>
             <ul className="space-y-3 mt-4">
               {quickLinksData?.map((item) => (
                 <li key={item?.title}>
@@ -71,8 +71,8 @@ const Footer = () => {
         </div>
         <div className="py-6 border-t text-center text-sm text-gray-600">
           <div>
-            © {new Date().getFullYear()} <Logo className="text-sm" />. Mọi quyền
-            được bảo lưu.
+            © {new Date().getFullYear()} <Logo className="text-sm" />. Mọi
+            quyền được bảo lưu.
           </div>
         </div>
       </Container>

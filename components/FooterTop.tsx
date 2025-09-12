@@ -1,6 +1,7 @@
 import { Clock, Mail, MapPin, Phone } from "lucide-react";
 import React from "react";
 
+// cho vào trong constants cũng được
 interface ContactItemData {
   title: string;
   subtitle: string;

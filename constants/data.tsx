@@ -35,19 +35,16 @@ export const quickLinksData = [
   { title: "Trợ giúp", href: "/tro-giup" },
 ];
 
+// có thể lấy từ database lên
 export const categoriesData = [
-  { title: "Điện thoại di động", href: "dien-thoai-di-dong" },
-  { title: "Đồ gia dụng", href: "do-gia-dung" },
-  { title: "Smartphone", href: "smartphone" },
-  { title: "Máy điều hòa", href: "may-dieu-hoa" },
-  { title: "Máy giặt", href: "may-giat" },
-  { title: "Đồ dùng nhà bếp", href: "do-dung-nha-bep" },
-  { title: "Phụ kiện công nghệ", href: "phu-kien-cong-nghe" },
+  { title: "Điện thoại", href: "dien-thoai" },
+  { title: "Máy tính xách tay", href: "may-tinh-xach-tay" },
+  { title: "Đồng hồ thông minh", href: "dong-ho-thong-minh" },
 ];
 
 export const productType = [
-  { title: "Thiết bị công nghệ", value: "thiet-bi-cong-nghe" },
-  { title: "Đồ gia dụng", value: "do-gia-dung" },
-  { title: "Tủ lạnh", value: "tu-lanh" },
-  { title: "Khác", value: "khac" },
+  { title: "Gadget", value: "gadget" },
+  { title: "Appliances", value: "appliances" },
+  { title: "Refrigerators", value: "refrigerators" },
+  { title: "Others", value: "others" },
 ];
