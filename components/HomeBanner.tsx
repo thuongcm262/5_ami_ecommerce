@@ -9,14 +9,14 @@ const HomeBanner = () => {
     <div className="py-16 md:py-0 bg-gray-300 rounded-lg px-10 lg:px-24 flex items-center justify-between">
       <div className="space-y-5">
         <Title>
-          Giảm giá tới 50% <br />
-          Các sản phẩm tai nghe
+          Up to 50% off <br />
+          Headphones
         </Title>
         <Link
           href={"/shop"}
           className="bg-gray-950/90 text-white/90 px-5 py-2 rounded-md text-sm font-semibold hover:text-white hover:bg-gray-900 hoverEffect"
         >
-          Mua ngay
+          Buy now!
         </Link>
       </div>
       <div>

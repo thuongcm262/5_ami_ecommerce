@@ -24,9 +24,7 @@ const NoProductAvailable = ({
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <h2 className="text-2xl font-bold text-gray-800">
-          Không thấy sản phẩm nào?
-        </h2>
+        <h2 className="text-2xl font-bold text-gray-800">No products found?</h2>
       </motion.div>
 
       <motion.p
@@ -35,11 +33,11 @@ const NoProductAvailable = ({
         transition={{ delay: 0.2, duration: 0.5 }}
         className="text-gray-600"
       >
-        Rất tiếc, hiện tại không có sản phẩm danh mục{" "}
+        Sorry, there are currently no products in this category .{" "}
         <span className="text-base font-semibold text-gray-950">
           {selectedTab}
         </span>{" "}
-        nào theo tiêu chí.
+        matching the criteria
       </motion.p>
 
       <motion.div
@@ -48,7 +46,7 @@ const NoProductAvailable = ({
         className="flex items-center space-x-2 text-gray-700"
       >
         <Loader2 className="w-5 h-5 animate-spin" />
-        <span>Chúng tôi sẽ sớm bổ sung</span>
+        <span>We will add more soon</span>
       </motion.div>
 
       <Link href={"/san-pham"}>
@@ -58,7 +56,7 @@ const NoProductAvailable = ({
           transition={{ delay: 0.4, duration: 0.5 }}
           className="text-sm text-gray-500"
         >
-          Khám phá các danh mục sản phẩm khác của chúng tôi
+          Explore our other product categories
         </motion.p>
       </Link>
     </div>

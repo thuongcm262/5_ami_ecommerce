@@ -20,13 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider localization={viVN}>
-      <html lang="en">
-        <body className="font-poppins antialiased">
-          <Header></Header>
-          <main className="flex-1">{children}</main>
-          <Footer></Footer>
-        </body>
-      </html>
+      {/* ❌ Không bọc lại <html> / <body> */}
+      <div className="font-poppins antialiased flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
+      </div>
     </ClerkProvider>
   );
 }

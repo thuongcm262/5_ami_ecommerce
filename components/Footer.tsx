@@ -17,9 +17,8 @@ const Footer = () => {
           <div className="space-y-4">
             <Logo />
             <SubText>
-              Khám phá bộ sưu tập đồ nội thất được tuyển chọn kỹ lưỡng tại Ami
-              OT, kết hợp phong cách và sự thoải mái để nâng tầm không gian sống
-              của bạn.
+              Explore the carefully curated furniture collection at Ami OT,
+              combining style and comfort to elevate your living space.
             </SubText>
             <SocialMedia
               className="text-gray-950/60"
@@ -28,7 +27,7 @@ const Footer = () => {
             />
           </div>
           <div>
-            <SubTitle>Thông tin</SubTitle>
+            <SubTitle>Quick Link</SubTitle>
             <ul className="space-y-3 mt-4">
               {quickLinksData?.map((item) => (
                 <li key={item?.title}>
@@ -43,7 +42,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <SubTitle>Danh mục</SubTitle>
+            <SubTitle>Category</SubTitle>
             <ul className="space-y-3 mt-4">
               {categoriesData?.map((item) => (
                 <li key={item?.title}>
@@ -58,21 +57,21 @@ const Footer = () => {
             </ul>
           </div>
           <div className="space-y-4">
-            <SubTitle>Tin tức</SubTitle>
+            <SubTitle>News</SubTitle>
             <SubText>
-              Đăng ký nhận bản tin của chúng tôi để nhận thông tin cập nhật và
-              ưu đãi độc quyền
+              Subscribe for our newsletter to receive updates and exclusive
+              offers
             </SubText>
             <form className="space-y-3">
-              <Input placeholder="Nhâp email của bạn" type="email" required />
-              <Button className="w-full">Đăng ký</Button>
+              <Input placeholder="Your email" type="email" required />
+              <Button className="w-full">Subscribe</Button>
             </form>
           </div>
         </div>
         <div className="py-6 border-t text-center text-sm text-gray-600">
           <div>
-            © {new Date().getFullYear()} <Logo className="text-sm" />. Mọi
-            quyền được bảo lưu.
+            © {new Date().getFullYear()} <Logo className="text-sm" />. All
+            rights reserved.
           </div>
         </div>
       </Container>

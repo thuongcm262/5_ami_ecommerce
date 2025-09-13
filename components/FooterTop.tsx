@@ -10,28 +10,28 @@ interface ContactItemData {
 
 const data: ContactItemData[] = [
   {
-    title: "Ghé thăm",
-    subtitle: "Hà Nội",
+    title: "Visit Us",
+    subtitle: "Vietnam",
     icon: (
       <MapPin className="h-6 w-6 text-gray-600 group-hover:text-primary transition-colors" />
     ),
   },
   {
-    title: "Liên hệ",
+    title: "Call Us",
     subtitle: "0349463699",
     icon: (
       <Phone className="h-6 w-6 text-gray-600 group-hover:text-primary transition-colors" />
     ),
   },
   {
-    title: "Giờ làm việc",
-    subtitle: "T.Hai - Bảy: 10:00 Sáng - 19:00 Tối",
+    title: "Working Hours",
+    subtitle: "Mon - Sat: 10:00 AM - 7:00 PM",
     icon: (
       <Clock className="h-6 w-6 text-gray-600 group-hover:text-primary transition-colors" />
     ),
   },
   {
-    title: "Email",
+    title: "Email Us",
     subtitle: "thuongcm262@gmail.com",
     icon: (
       <Mail className="h-6 w-6 text-gray-600 group-hover:text-primary transition-colors" />

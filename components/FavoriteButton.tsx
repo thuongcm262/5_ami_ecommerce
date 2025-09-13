@@ -16,7 +16,7 @@ const FavoriteButton = () => {
          rounded-full text-xs font-semibold flex 
          items-center justify-center"
       >
-        99
+        0
       </span>
     </Link>
   );

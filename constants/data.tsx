@@ -1,11 +1,11 @@
 import { Facebook, Github, Youtube } from "lucide-react";
 
 export const headerData = [
-  { title: "Trang chủ", href: "/" },
-  { title: "Sản phẩm", href: "/san-pham" },
-  { title: "Tin tức", href: "/tin-tuc" },
-  { title: "Liên hệ", href: "/lien-he" },
-  { title: "Ưu đãi", href: "/uu-dai" },
+  { title: "Home", href: "/" },
+  { title: "Shop", href: "/shop" },
+  { title: "Blog", href: "/blog" },
+  { title: "Contact", href: "/contact" },
+  { title: "Deal", href: "/deal" },
 ];
 
 export const socialMediaData = [
@@ -27,19 +27,19 @@ export const socialMediaData = [
 ];
 
 export const quickLinksData = [
-  { title: "Về chúng tôi", href: "/ve-chung-toi" },
-  { title: "Liên hệ", href: "/lien-he" },
-  { title: "Điều khoản & Điều kiện", href: "/dieu-khoan" },
-  { title: "Chính sách bảo mật", href: "/chinh-sach-bao-mat" },
-  { title: "Câu hỏi thường gặp", href: "/cau-hoi-thuong-gap" },
-  { title: "Trợ giúp", href: "/tro-giup" },
+  { title: "About Us", href: "/about-us" },
+  { title: "Contact", href: "/contact" },
+  { title: "Terms & Conditions", href: "/terms" },
+  { title: "Privacy Policy", href: "/privacy-policy" },
+  { title: "FAQ", href: "/faq" },
+  { title: "Help", href: "/help" },
 ];
 
 // có thể lấy từ database lên
 export const categoriesData = [
-  { title: "Điện thoại", href: "dien-thoai" },
-  { title: "Máy tính xách tay", href: "may-tinh-xach-tay" },
-  { title: "Đồng hồ thông minh", href: "dong-ho-thong-minh" },
+  { title: "SmartPhone", href: "smartphone" },
+  { title: "Laptop", href: "laptop" },
+  { title: "SmartWatch", href: "smartwatch" },
 ];
 
 export const productType = [

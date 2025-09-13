@@ -34,7 +34,7 @@ const ProductCard = ({ product }: { product: Product }) => {
           </p>
         ) : (
           <Link
-            href={"/uu-dai"}
+            href={"/deal"}
             className="absolute top-2 left-2 z-10 border border-shop_orange/30 p-1 rounded-full group-hover:border-shop_orange hover:text-gray-700 hoverEffect"
           >
             <Flame
@@ -57,7 +57,7 @@ const ProductCard = ({ product }: { product: Product }) => {
             {[...Array(5)].map((_, index) => (
               <StarIcon
                 key={index}
-                className={index < 4 ? "text-gray-900" : " text-gray-50"}
+                className={index < 4 ? "text-gray-950" : " text-gray-400"}
                 fill={index < 4 ? "#6d6d6d" : "#ffffff"}
               />
             ))}

@@ -10,7 +10,7 @@ const SignIn = () => {
     hover:cursor-pointer hoverEffect
     "
       >
-        Đăng nhập
+        Login
       </button>
     </SignInButton>
   );
