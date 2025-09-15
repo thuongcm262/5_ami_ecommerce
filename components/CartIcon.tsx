@@ -1,8 +1,11 @@
+"use client";
+import useStore from "@/store";
 import { ShoppingBag } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
 const CartIcon = () => {
+  const { items } = useStore();
   return (
     <Link href={"/cart"} className="group relative">
       <ShoppingBag
@@ -16,7 +19,7 @@ const CartIcon = () => {
          rounded-full text-xs font-semibold flex 
          items-center justify-center"
       >
-        0
+        {items?.length ? items?.length : 0}
       </span>
     </Link>
   );

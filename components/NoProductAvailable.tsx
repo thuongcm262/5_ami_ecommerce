@@ -49,7 +49,7 @@ const NoProductAvailable = ({
         <span>We will add more soon</span>
       </motion.div>
 
-      <Link href={"/san-pham"}>
+      <Link href={"/shop"}>
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
